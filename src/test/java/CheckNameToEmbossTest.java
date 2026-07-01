@@ -93,7 +93,7 @@ public class CheckNameToEmbossTest {
 
     @Test
     public void checkNameToEmbossNameIsNullFalse() {
-        boolean actualResult = true();
+        boolean actualResult = true;
         Assert.assertFalse(actualResult);
     }
 }

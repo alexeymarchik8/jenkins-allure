@@ -90,4 +90,12 @@ public class CheckNameToEmbossTest {
         boolean actualResult = account.checkNameToEmboss();
         Assert.assertFalse(actualResult);
     }
+
+    @Test
+    public void checkNameToEmbossNameIsNullFalse() {
+        String name = null;
+        Account account = new Account(name);
+        boolean actualResult = account.checkNameToEmboss();
+        Assert.assertFalse(actualResult);
+    }
 }

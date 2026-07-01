@@ -93,9 +93,7 @@ public class CheckNameToEmbossTest {
 
     @Test
     public void checkNameToEmbossNameIsNullFalse() {
-        String name = null;
-        Account account = new Account(name);
-        boolean actualResult = account.checkNameToEmboss();
+        boolean actualResult = true();
         Assert.assertFalse(actualResult);
     }
 }
